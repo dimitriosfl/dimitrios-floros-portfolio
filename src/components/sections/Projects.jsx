@@ -10,6 +10,14 @@ export default function Projects()
                     <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Projects</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="p-6 rounded-xl border border-white/10 hovver:translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,30,246,0.1)] transition-all">
+                            <h3 className="text-xl font-bold mb-2">Google Gemini Clone</h3>
+                            <p className="text-gray-400 mb-4">A Google Gemini clone for text chat. </p>
+                            <div className="flex justify-between items-center">
+                                <a href="https://dimitriosfl.github.io/gemini-clone/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project</a>
+                                <img src="geminiClone.jpg" alt="Project preview" className="w-80 h-45 rounded-lg ml-2" />
+                            </div>
+                        </div>
+                        <div className="p-6 rounded-xl border border-white/10 hovver:translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,30,246,0.1)] transition-all">
                             <h3 className="text-xl font-bold mb-2">Crypto-App</h3>
                             <p className="text-gray-400 mb-4">A simple App to search and quickly find basic info for crypto coins. </p>
                             <div className="flex justify-between items-center">
